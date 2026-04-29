@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FreshBite Catering</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Animasi -->
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+</head>
+
+<body class="bg-green-50 text-gray-800 scroll-smooth">
+
+<!-- NAVBAR -->
+<nav class="bg-white shadow-md fixed w-full z-50">
+  <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+    <h1 class="text-xl font-bold text-green-600">FreshBite</h1>
+
+    <ul class="hidden md:flex gap-6">
+      <li><a href="#home" class="hover:text-green-600">Home</a></li>
+      <li><a href="#about" class="hover:text-green-600">About</a></li>
+      <li><a href="#menu" class="hover:text-green-600">Menu</a></li>
+      <li><a href="#testi" class="hover:text-green-600">Testimoni</a></li>
+    </ul>
+
+    <button class="bg-green-600 text-white px-4 py-2 rounded-full hover:bg-green-700">
+      Order
+    </button>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section id="home" class="pt-28 pb-16">
+  <div class="max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-center">
+
+    <div class="md:w-1/2" data-aos="fade-right">
+      <h1 class="text-4xl md:text-5xl font-bold text-green-700 mb-4">
+        Healthy Food, Happy Life 🌿
+      </h1>
+      <p class="text-gray-600 mb-6">
+        Nikmati makanan sehat, fresh, dan bergizi setiap hari bersama FreshBite Catering.
+      </p>
+      <button class="bg-green-600 text-white px-6 py-3 rounded-full shadow-lg hover:scale-105 transition">
+        Pesan Sekarang
+      </button>
+    </div>
+
+    <div class="md:w-1/2 mt-10 md:mt-0" data-aos="fade-left">
+      <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c" 
+           class="rounded-3xl shadow-xl">
+    </div>
+
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="py-16 bg-white">
+  <div class="max-w-5xl mx-auto text-center px-6" data-aos="fade-up">
+    <h2 class="text-3xl font-bold text-green-700 mb-4">Tentang Kami</h2>
+    <p class="text-gray-600">
+      FreshBite menghadirkan makanan sehat berbahan organik dengan rasa lezat dan kualitas terbaik.
+      Cocok untuk diet, gaya hidup sehat, dan kebutuhan catering harian.
+    </p>
+  </div>
+</section>
+
+<!-- MENU -->
+<section id="menu" class="py-16">
+  <div class="max-w-6xl mx-auto px-6">
+    <h2 class="text-3xl font-bold text-center text-green-700 mb-10" data-aos="fade-up">
+      Menu Favorit
+    </h2>
+
+    <div class="grid md:grid-cols-3 gap-8">
+
+      <div class="bg-white p-4 rounded-2xl shadow hover:scale-105 transition" data-aos="zoom-in">
+        <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c" class="rounded-xl mb-4">
+        <h3 class="font-bold text-lg">Salad Bowl</h3>
+        <p class="text-gray-600">Rp25.000</p>
+      </div>
+
+      <div class="bg-white p-4 rounded-2xl shadow hover:scale-105 transition" data-aos="zoom-in" data-aos-delay="100">
+        <img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd" class="rounded-xl mb-4">
+        <h3 class="font-bold text-lg">Grilled Chicken</h3>
+        <p class="text-gray-600">Rp30.000</p>
+      </div>
+
+      <div class="bg-white p-4 rounded-2xl shadow hover:scale-105 transition" data-aos="zoom-in" data-aos-delay="200">
+        <img src="https://images.unsplash.com/photo-1490645935967-10de6ba17061" class="rounded-xl mb-4">
+        <h3 class="font-bold text-lg">Fruit Bowl</h3>
+        <p class="text-gray-600">Rp20.000</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONI -->
+<section id="testi" class="py-16 bg-green-100">
+  <div class="max-w-5xl mx-auto text-center px-6">
+    <h2 class="text-3xl font-bold text-green-700 mb-8" data-aos="fade-up">
+      Apa Kata Mereka?
+    </h2>
+
+    <div class="grid md:grid-cols-3 gap-6">
+
+      <div class="bg-white p-6 rounded-xl shadow" data-aos="fade-up">
+        <p>"Sehat dan enak banget!"</p>
+        <h4 class="mt-4 font-bold">- Sinta</h4>
+      </div>
+
+      <div class="bg-white p-6 rounded-xl shadow" data-aos="fade-up" data-aos-delay="100">
+        <p>"Menu diet terbaik!"</p>
+        <h4 class="mt-4 font-bold">- Andi</h4>
+      </div>
+
+      <div class="bg-white p-6 rounded-xl shadow" data-aos="fade-up" data-aos-delay="200">
+        <p>"Fresh dan berkualitas."</p>
+        <h4 class="mt-4 font-bold">- Rina</h4>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="bg-green-700 text-white py-10">
+  <div class="text-center">
+    <h3 class="text-xl font-bold mb-2">FreshBite Catering</h3>
+    <p>Jl. Sehat No.123, Indonesia</p>
+    <p>Email: freshbite@email.com</p>
+
+    <div class="flex justify-center gap-4 mt-4">
+      <a href="#" class="hover:underline">Instagram</a>
+      <a href="#" class="hover:underline">Facebook</a>
+      <a href="#" class="hover:underline">WhatsApp</a>
+    </div>
+  </div>
+</footer>
+
+<script>
+  AOS.init();
+</script>
+
+</body>
+</html>
